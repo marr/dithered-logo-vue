@@ -26,6 +26,8 @@ import { DitheredLogo } from './components';
 
 ## Demo
 
+Live demo: [marr.github.io/dithered-logo-vue](https://marr.github.io/dithered-logo-vue)
+
 ```bash
 npm install
 npm run dev
