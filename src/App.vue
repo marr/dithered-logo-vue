@@ -5,7 +5,7 @@ import DitheredLogo from './components/DitheredLogo.vue';
 const logoSrc = `${import.meta.env.BASE_URL}frog.svg`;
 
 const gridSize = ref(200);
-const scale = ref(0.5);
+const scale = ref(0.85);
 const dotScale = ref(1);
 const invert = ref(true);
 const cornerRadius = ref(0.2);
@@ -34,7 +34,7 @@ const contrast = ref(55);
 
   <div class="demo-stage">
     <DitheredLogo
-      :style="{ width: '200px', height: '200px' }"
+      :style="{ width: '280px', height: '280px' }"
       :image-src="logoSrc"
       :grid-size="gridSize"
       :scale="scale"
