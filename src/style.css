@@ -81,9 +81,9 @@ h1 {
   place-items: center;
   position: relative;
   overflow: hidden;
-  min-height: 320px;
+  /* Room for the 500px interaction canvas centered on the 240px logo box. */
+  padding: calc(2rem + 130px) 1rem;
   margin: 0 auto 2rem;
-  padding: 2rem 1rem;
   border-radius: 24px;
   background: #fff;
   border: 1px solid rgb(0 0 0 / 0.08);

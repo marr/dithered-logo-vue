@@ -60,7 +60,6 @@ const containerStyle = computed<CSSProperties>(() => ({
   position: 'relative',
   width: '240px',
   height: '240px',
-  overflow: 'hidden',
   ...(isMobile.value ? { transform: 'scale(0.8)' } : {}),
   ...props.style,
 }));
