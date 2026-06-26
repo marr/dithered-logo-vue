@@ -2,7 +2,7 @@
 import { ref } from 'vue';
 import DitheredLogo from './components/DitheredLogo.vue';
 
-const logoSrc = `${import.meta.env.BASE_URL}frog.svg`;
+const logoSrc = `${import.meta.env.BASE_URL}logo.svg`;
 
 const gridSize = ref(200);
 const scale = ref(0.5);
@@ -12,7 +12,7 @@ const cornerRadius = ref(0.2);
 const gamma = ref(1);
 const blur = ref(3.75);
 const diffusionStrength = ref(1);
-const contrast = ref(40);
+const contrast = ref(0);
 </script>
 
 <template>

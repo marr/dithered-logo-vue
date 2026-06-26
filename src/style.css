@@ -83,18 +83,21 @@ h1 {
   margin: 0 auto 2rem;
   padding: 2rem 1rem;
   border-radius: 24px;
-  background:
-    radial-gradient(circle at top, rgb(255 255 255 / 0.9), transparent 55%),
-    #eceff3;
-  border: 1px solid rgb(0 0 0 / 0.06);
+  background: #fff;
+  border: 1px solid rgb(0 0 0 / 0.08);
+  box-shadow:
+    0 1px 2px rgb(0 0 0 / 0.04),
+    0 12px 40px rgb(0 0 0 / 0.06);
 }
 
 @media (prefers-color-scheme: dark) {
   .demo-stage {
-    background:
-      radial-gradient(circle at top, rgb(255 255 255 / 0.06), transparent 55%),
-      #171a21;
-    border-color: rgb(255 255 255 / 0.08);
+    /* Keep the stage light so the dithered logo stays readable in dark mode. */
+    background: #fff;
+    border-color: rgb(0 0 0 / 0.1);
+    box-shadow:
+      0 1px 2px rgb(0 0 0 / 0.2),
+      0 12px 40px rgb(0 0 0 / 0.35);
   }
 }
 
